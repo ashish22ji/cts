@@ -1,7 +1,6 @@
 import './App.css'
 import Navbar from './components/Navbar'
 import ContactUs from './container/ContactUs';
-import Copyrights from './components/CopyRights';
 import HeroSlider from './container/HeroSlider';
 import Services from './container/Services';
 import Stats from './container/Stats';
