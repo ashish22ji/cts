@@ -27,14 +27,14 @@ function App() {
       {/* SERVICES */}
       <Services />
 
+      {/* Stats */}
+      <Stats/>
+
       {/* Fleet */}
       <Fleet />
 
       {/* Contact Us */}
       <ContactUs />
-
-      {/* Stats */}
-      <Stats/>
 
       {/* Floating Whats App */}
       <FloatingWtsapp />

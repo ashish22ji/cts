@@ -8,7 +8,6 @@
     { "label": "About Us", "href": "about" },
     { "label": "Services", "href": "services" },
     { "label": "Fleet", "href": "fleet" },
-    { "label": "Stats", "href": "stats" },
     { "label": "Contact", "href": "contact" }
   ],
   "cta": {
