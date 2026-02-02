@@ -7,7 +7,6 @@
     { "label": "Home", "href": "home", "active": true },
     { "label": "About Us", "href": "about" },
     { "label": "Services", "href": "services" },
-    { "label": "Fleet", "href": "fleet" },
     { "label": "Contact", "href": "contact" }
   ],
   "cta": {

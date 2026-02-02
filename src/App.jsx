@@ -30,11 +30,11 @@ function App() {
       {/* Stats */}
       <Stats/>
 
-      {/* Fleet */}
-      <Fleet />
-
       {/* Contact Us */}
       <ContactUs />
+
+      {/* Fleet */}
+      <Fleet />
 
       {/* Floating Whats App */}
       <FloatingWtsapp />
