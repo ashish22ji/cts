@@ -1,0 +1,45 @@
+ [
+  {
+    "id": 1,
+    "title": "Fast Delivery on home",
+    "description": "On-time and secure transportation across India.",
+    "icon": "🚚",
+    "gradient": "from-orange-500 to-red-500"
+  },
+  {
+    "id": 2,
+    "title": "Warehousing",
+    "description": "Safe and scalable storage.",
+    "icon": "🏬",
+    "gradient": "from-blue-500 to-indigo-600"
+  },
+  {
+    "id": 3,
+    "title": "24/7 Support",
+    "description": "Dedicated support for all logistics needs.",
+    "icon": "📞",
+    "gradient": "from-emerald-500 to-teal-600"
+  },
+  {
+    "id": 4,
+    "title": "24/7 Support",
+    "description": "Dedicated support for all logistics needs.",
+    "icon": "📞",
+    "gradient": "from-emerald-500 to-teal-600"
+  },
+  {
+    "id": 5,
+    "title": "365 years Support",
+    "description": "Dedicated support for all logistics needs.",
+    "icon": "📞",
+    "gradient": "from-emerald-500 to-teal-600"
+  },
+   {
+    "id": 6,
+    "title": "always available 24x7",
+    "description": "allways available description",
+    "icon": "📞",
+    "gradient": "from-emerald-500 to-teal-600dsafa"}
+]
+
+

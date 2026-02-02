@@ -1,0 +1,19 @@
+{
+  "brand": {
+    "name": "CTS",
+    "logo": "/logo.png"
+  },
+  "menu": [
+    { "label": "Home", "href": "home", "active": true },
+    { "label": "Fleet", "href": "fleet" },
+    { "label": "Services", "href": "services" },
+    { "label": "Contact", "href": "contact" },
+    { "label": "Stats", "href": "stats" }
+
+  ],
+  "cta": {
+    "label": "Book Now",
+    "href": "/book",
+    "show": true
+  }
+}

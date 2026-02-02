@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "icon": "📦",
+    "number": "1200+",
+    "label": "Packers and movers"
+  },
+  {
+    "id": 2,
+    "icon": "🌍",
+    "number": "500+",
+    "label": "City Covered"
+  },
+  {
+    "id": 3,
+    "icon": "👤",
+    "number": "1500+",
+    "label": "Happy Clients"
+  },
+  {
+    "id": 4,
+    "icon": "🚚",
+    "number": "50+",
+    "label": "Vehicles Involved"
+  },
+   {
+    "id": 8,
+    "icon": "🚚",
+    "number": "50+",
+    "label": "Vehicles Involved"
+  }
+]
