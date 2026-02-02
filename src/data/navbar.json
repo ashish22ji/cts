@@ -5,11 +5,11 @@
   },
   "menu": [
     { "label": "Home", "href": "home", "active": true },
-    { "label": "Fleet", "href": "fleet" },
+    { "label": "About Us", "href": "about" },
     { "label": "Services", "href": "services" },
-    { "label": "Contact", "href": "contact" },
-    { "label": "Stats", "href": "stats" }
-
+    { "label": "Fleet", "href": "fleet" },
+    { "label": "Stats", "href": "stats" },
+    { "label": "Contact", "href": "contact" }
   ],
   "cta": {
     "label": "Book Now",
