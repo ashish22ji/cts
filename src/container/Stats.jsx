@@ -7,7 +7,7 @@ export default function Stats() {
   return (
        <Container
   id={"stats"}     
-  title="Our Services"
+  title="Powering Logistics Nationwide"
   subtitle="Smart logistics tailored for your business"
   data={statsData}
   columns={4}
