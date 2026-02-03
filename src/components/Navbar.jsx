@@ -1,6 +1,7 @@
 import { useState } from "react";
 import navbarjson from "../data/navbar.json";
 import CTA from "./CTA";
+import contactData from "../data/contactData.json"
 
 export default function Navbar() {
   const [active, setActive] = useState("");
@@ -33,7 +34,7 @@ export default function Navbar() {
             ))}
           </nav>
 
-          {navbarjson.cta.show && <CTA text="Get Quote" variant="light" />}
+          {navbarjson.cta.show && <CTA text="Get Quote" variant="light" href= {`https://wa.me/${contactData.phone}?text=${encodeURIComponent(contactData.message)}`} />}
         </div>
       </div>
     </header>

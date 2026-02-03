@@ -14,10 +14,10 @@ export default function ContactUs() {
         text: "📞 Call Now",
         align: "center",
         target: "_blank",
-        href: `https://wa.me/${contactData.phone}?text=${encodeURIComponent(contactData.message)}`,
+        href: `tel:+${contactData.phone}`,
       }}
       ctaProps2={{
-        text: "💬 WhatsApp Us",
+        text: "📲 WhatsApp Us",
         align: "center",
         variant: "outline",
         target: "_blank",
@@ -26,8 +26,30 @@ export default function ContactUs() {
     >
       {/* Contact Info */}
       <div className="flex flex-col md:flex-row justify-center gap-6 text-primary text-base">
-        <span>✉ {contactData.email}</span>
-        <span>📞 +{contactData.phone}</span>
+        <span>
+          ✉{" "}
+          <a
+            href={`mailto:${contactData.email}`}
+            className="inline-flex items-center gap-1 transition-all duration-300 hover:translate-x-1"
+          >
+            {contactData.email}
+          </a>
+        </span>
+        <span>
+          📞{" "}
+          <a
+            href={`tel:+${contactData.phone}`}
+            className="inline-flex items-center gap-1 transition-all duration-300 hover:translate-x-1"
+          >
+            +{contactData.phone}
+          </a>{" "+","+" "} 
+          <a
+            href={`tel:+${contactData.phone2}`}
+            className="inline-flex items-center gap-1 transition-all duration-300 hover:translate-x-1"
+          >
+            +{contactData.phone2}
+          </a>
+        </span>
       </div>
     </Container>
   );
