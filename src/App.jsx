@@ -9,14 +9,8 @@ import About from "./container/About";
 import Footer from "./container/Footer";
 import FloatingWtsapp from "./components/FloatingWtsapp";
 import CallFloat from "./components/CallFloat";
-import contactData from "./data/contactData.json"
-import { useEffect } from "react";
 
 function App() {
-
-   useEffect(() => {
-    document.title = contactData.companyName;
-  }, []);
   
   return (
     <div className="font-sans bg-bg text-gray-800 min-h-screen">
