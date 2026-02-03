@@ -127,7 +127,8 @@
 /* Light CTA (on dark/gradient sections) */
 .btn-light {
   background-color: var(--color-card);
-  color: var(--color-text);
+  color: var(--color-primary);
+  font-weight: 600;
 }
 
 .btn-light:hover {
