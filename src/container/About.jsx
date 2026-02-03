@@ -1,8 +1,8 @@
 import CTA from "../components/CTA";
 import Container from "../layout/Container";
-import aboutImg from "../assets/images/truck1.webp";
 import Card from "../components/Card";
 import aboutData from "../data/About.json"
+import contactData from "../data/contactData.json";
 
 export default function About() {
   return (
@@ -17,7 +17,7 @@ export default function About() {
       {/* Left Image */}
       <div className="relative">
         <img
-          src={aboutImg}
+          src="/vehicle-images/Packers-And-Movers.jpg"
           alt="Logistics & Transport Services"
           className="rounded-3xl shadow-lg w-full object-cover"
         />
@@ -56,9 +56,9 @@ export default function About() {
                   view="stats"
                 />
           ))}
-        </div>
+        </div>        
 
-        <CTA text="Contact Us" />
+        <CTA text="Contact Us" target="_blank"  href={`https://wa.me/${contactData.phone}?text=${encodeURIComponent(contactData.message)}`}/>
       </div>
     </Container>
   );

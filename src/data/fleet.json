@@ -2,31 +2,31 @@
   {
     "title": "Container Truck",
     "description": "Heavy-duty cargo transport",
-    "src": "https://picsum.photos/id/1011/1200/800",
+    "src": "/vehicle-images/container.jpg",
     "quoteInfo" : "Container Truck DL5022"
   },
   {
     "title": "Refrigerated Truck",
     "description": "Cold-chain logistics solutions",
-    "src": "https://picsum.photos/id/1025/1200/800",
+    "src": "/vehicle-images/refrigerator-truck.jpg",
     "quoteInfo" : "Refrigerated Truck DL2323"
   },
   {
     "title": "Mini Cargo Vehicle",
     "description": "Fast urban deliveries",
-    "src": "https://picsum.photos/id/1043/1200/800",
+    "src": "/vehicle-images/tata-ace.avif",
     "quoteInfo" : "Mini Cargo Vehicle DL2006"
   },
   {
     "title": "Long Haul Trailer",
     "description": "Interstate freight transport",
-    "src": "https://picsum.photos/id/1057/1200/800",
+    "src": "/vehicle-images/long-haul-banner.jpg",
     "quoteInfo" : "Long Haul Trailer DL8080"
   },
   {
     "title": "Logistics Fleet",
     "description": "Reliable nationwide logistics",
-    "src": "https://picsum.photos/id/1069/1200/800",
+    "src": "/vehicle-images/truck1.webp",
     "quoteInfo" : "Logistics Fleet DL9020"
   }
 ]
