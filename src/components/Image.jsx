@@ -40,16 +40,12 @@ export default function Image({
 
       {(hasCTA || description) && (
         <div className="absolute inset-0 flex flex-col justify-end items-center text-center p-5">
-
           {/* gradient overlay */}
           <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/40 to-transparent" />
 
           <div className="relative z-10 space-y-3">
-
             {description && (
-              <p className="text-white font-semibold">
-                {description}
-              </p>
+              <p className="text-white font-semibold">{description}</p>
             )}
 
             {hasCTA && (
@@ -57,7 +53,6 @@ export default function Image({
                 <CTA text={text} variant={variant} href={href} {...restCTA} />
               </div>
             )}
-
           </div>
         </div>
       )}

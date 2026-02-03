@@ -3,30 +3,30 @@
     "title": "Container Truck",
     "description": "Heavy-duty cargo transport",
     "src": "/vehicle-images/container.jpg",
-    "quoteInfo" : "Container Truck DL5022"
+    "quoteInfo": "Container Truck DL5022"
   },
   {
     "title": "Refrigerated Truck",
     "description": "Cold-chain logistics solutions",
     "src": "/vehicle-images/refrigerator-truck.jpg",
-    "quoteInfo" : "Refrigerated Truck DL2323"
+    "quoteInfo": "Refrigerated Truck DL2323"
   },
   {
     "title": "Mini Cargo Vehicle",
     "description": "Fast urban deliveries",
     "src": "/vehicle-images/tata-ace.avif",
-    "quoteInfo" : "Mini Cargo Vehicle DL2006"
+    "quoteInfo": "Mini Cargo Vehicle DL2006"
   },
   {
     "title": "Long Haul Trailer",
     "description": "Interstate freight transport",
     "src": "/vehicle-images/long-haul-banner.jpg",
-    "quoteInfo" : "Long Haul Trailer DL8080"
+    "quoteInfo": "Long Haul Trailer DL8080"
   },
   {
     "title": "Logistics Fleet",
     "description": "Reliable nationwide logistics",
     "src": "/vehicle-images/truck1.webp",
-    "quoteInfo" : "Logistics Fleet DL9020"
+    "quoteInfo": "Logistics Fleet DL9020"
   }
 ]

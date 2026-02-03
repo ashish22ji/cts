@@ -13,8 +13,8 @@ export default function Container({
   renderItem,
   children,
   gap = "normal",
-  ctaProps={},
-  ctaProps2={}
+  ctaProps = {},
+  ctaProps2 = {},
 }) {
   const gridMap = {
     1: "grid-cols-1",
@@ -33,7 +33,7 @@ export default function Container({
     large: "py-24",
   };
 
-    // NEW
+  // NEW
   const gapMap = {
     none: "gap-0",
     small: "gap-6",
@@ -44,24 +44,15 @@ export default function Container({
   };
 
   const alignMap = {
-  left: "justify-start",
-  center: "justify-center",
-  right: "justify-end",
-};
-const hasCTA = !!ctaProps?.text;
-const hasCTA2 = !!ctaProps2?.text;
+    left: "justify-start",
+    center: "justify-center",
+    right: "justify-end",
+  };
+  const hasCTA = !!ctaProps?.text;
+  const hasCTA2 = !!ctaProps2?.text;
 
-const {
-  text,
-  align = "center",
-  variant = "primary",
-  ...restCTA
-} = ctaProps;
-const {
-  text2,
-  variant2 = "primary",
-  ...restCTA2
-} = ctaProps2;
+  const { text, align = "center", variant = "primary", ...restCTA } = ctaProps;
+  const { text2, variant2 = "primary", ...restCTA2 } = ctaProps2;
 
   const ctaAlignClass = alignMap[align];
 
@@ -70,18 +61,11 @@ const {
   const gapClass = gapMap[gap] || gapMap.normal;
 
   return (
-    <section
-      id={id}
-      className={`${spaceClass} ${bg} ${className}`}
-    >
+    <section id={id} className={`${spaceClass} ${bg} ${className}`}>
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         {(title || subtitle) && (
           <div className="mb-12 text-center">
-            {title && (
-              <h2 className="text-4xl font-bold">
-                {title}
-              </h2>
-            )}
+            {title && <h2 className="text-4xl font-bold">{title}</h2>}
             {subtitle && (
               <p className="mt-4 text-slate-400 max-w-2xl mx-auto">
                 {subtitle}
@@ -93,16 +77,19 @@ const {
         {/*Apply grid even for children */}
         <div className={`grid ${colsClass} ${gapClass} items-center`}>
           {data.length > 0 && renderItem
-            ? data.map((item, index) => <div key={index}>{renderItem(item)}</div>)
+            ? data.map((item, index) => (
+                <div key={index}>{renderItem(item)}</div>
+              ))
             : children}
         </div>
         {(hasCTA || hasCTA2) && (
-  <div className={`flex gap-2 ${(children || data.length > 0)?"mt-10":"" } ${ctaAlignClass}`}>
-    <CTA text={text} variant={variant} {...restCTA} />
-    <CTA text={text2} variant={variant2} {...restCTA2} />
-  </div>
-)}
-
+          <div
+            className={`flex gap-2 ${children || data.length > 0 ? "mt-10" : ""} ${ctaAlignClass}`}
+          >
+            <CTA text={text} variant={variant} {...restCTA} />
+            <CTA text={text2} variant={variant2} {...restCTA2} />
+          </div>
+        )}
       </div>
     </section>
   );

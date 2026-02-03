@@ -1,9 +1,9 @@
 .contact-whatsapp {
-    width: 50px;
-    position: fixed;
-    bottom: 130px;
-    left: 15px;
-    z-index: 9999;
-    display: inline-block;
-    animation: up-down 1s infinite;
+  width: 50px;
+  position: fixed;
+  bottom: 130px;
+  left: 15px;
+  z-index: 9999;
+  display: inline-block;
+  animation: up-down 1s infinite;
 }

@@ -1,7 +1,7 @@
 import CTA from "../components/CTA";
 import Container from "../layout/Container";
 import Card from "../components/Card";
-import aboutData from "../data/About.json"
+import aboutData from "../data/About.json";
 import contactData from "../data/contactData.json";
 
 export default function About() {
@@ -26,7 +26,7 @@ export default function About() {
           <p className="text-2xl font-bold">10+ Years</p>
           <p className="text-sm">Industry Experience</p>
         </div>
-        </div>
+      </div>
 
       {/* Right Content */}
       <div>
@@ -36,29 +36,29 @@ export default function About() {
 
         <p className="text-muted mb-4 leading-relaxed">
           We are a trusted logistics and transportation company delivering
-          reliable, fast, and cost-effective cargo solutions across India.
-          From local deliveries to long-haul transportation, we ensure your
-          goods move safely and on time.
+          reliable, fast, and cost-effective cargo solutions across India. From
+          local deliveries to long-haul transportation, we ensure your goods
+          move safely and on time.
         </p>
 
         <p className="text-muted mb-6 leading-relaxed">
-          Our modern fleet, experienced drivers, and real-time tracking
-          systems allow us to provide seamless logistics services tailored
-          to your business needs.
+          Our modern fleet, experienced drivers, and real-time tracking systems
+          allow us to provide seamless logistics services tailored to your
+          business needs.
         </p>
 
         {/* Highlights */}
         <div className="grid grid-cols-2 gap-6 mb-8 ">
           {aboutData.map((item) => (
-             <Card
-                  title={item.label}
-                  meta={item.value}
-                  view="stats"
-                />
+            <Card title={item.label} meta={item.value} view="stats" />
           ))}
-        </div>        
+        </div>
 
-        <CTA text="Contact Us" target="_blank"  href={`https://wa.me/${contactData.phone}?text=${encodeURIComponent(contactData.message)}`}/>
+        <CTA
+          text="Contact Us"
+          target="_blank"
+          href={`https://wa.me/${contactData.phone}?text=${encodeURIComponent(contactData.message)}`}
+        />
       </div>
     </Container>
   );

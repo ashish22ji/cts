@@ -4,7 +4,7 @@ import Container from "../layout/Container";
 import Image from "../components/Image";
 import fleetData from "../data/fleet.json";
 import CTA from "../components/CTA";
-import contactData from "../data/contactData.json"
+import contactData from "../data/contactData.json";
 
 export default function Gallery() {
   return (
@@ -28,13 +28,18 @@ export default function Gallery() {
         {fleetData.map((item, index) => (
           <SwiperSlide key={index}>
             <>
-            <Image
-              src={item.src}
-              title={item.title}
-              description={item.description}
-              rounded={false}
-              ctaProps={{ text: "Get Quote", align: "center", target:"_blank", href:`https://wa.me/${contactData.phone}?text=${encodeURIComponent(`${contactData.quoteMessage}-"${item.quoteInfo}"`)}` }}
-            />
+              <Image
+                src={item.src}
+                title={item.title}
+                description={item.description}
+                rounded={false}
+                ctaProps={{
+                  text: "Get Quote",
+                  align: "center",
+                  target: "_blank",
+                  href: `https://wa.me/${contactData.phone}?text=${encodeURIComponent(`${contactData.quoteMessage}-"${item.quoteInfo}"`)}`,
+                }}
+              />
             </>
           </SwiperSlide>
         ))}
@@ -42,4 +47,3 @@ export default function Gallery() {
     </Container>
   );
 }
-

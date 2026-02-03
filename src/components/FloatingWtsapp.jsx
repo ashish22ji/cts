@@ -1,10 +1,9 @@
-import wtsappData from '../data/contactData.json';
+import wtsappData from "../data/contactData.json";
 
 export default function FloatingWtsapp() {
-
   const whatsappUrl = `https://wa.me/${wtsappData.phone}?text=${encodeURIComponent(wtsappData.message)}`;
   return (
-     <a
+    <a
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"

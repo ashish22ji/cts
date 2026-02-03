@@ -1,28 +1,27 @@
 {
-    "name":"Vinod Chauhan",
-    "companyName":"Chauhan transport Services",
-    "phone":919999550444,
-    "phone2":919999550344,
-    "message":"Hello CTS, I need transport services!",
-    "quoteMessage":"Hello CTS, Please Provide A Quote for the",
-    "email": "vinod-chauhan@gmail.com",
-"facebook": "https://www.facebook.com/vinodchauhan",
+  "name": "Vinod Chauhan",
+  "companyName": "Chauhan transport Services",
+  "phone": 919999550444,
+  "phone2": 919999550344,
+  "message": "Hello CTS, I need transport services!",
+  "quoteMessage": "Hello CTS, Please Provide A Quote for the",
+  "email": "vinod-chauhan@gmail.com",
+  "facebook": "https://www.facebook.com/vinodchauhan",
   "Insta": "https://www.instagram.com/vinodchauhan",
   "linkedIn": "https://www.linkedin.com/in/vinodchauhan",
   "twitter": "https://twitter.com/vinodchauhan",
-    "address": {
-        "street": "B-121 Gitanjali Park",
-        "area": "Sagarpur",
-        "city": "New Delhi",
-        "pin": 110064,
-        "country":"India"
-    },
-    "office": {
-        "street": "B-121 Wood Market",
-        "area": "Kirti Nagar",
-        "city": "New Delhi",
-        "pin": 110064,
-        "country":"India"
-    }
-
+  "address": {
+    "street": "B-121 Gitanjali Park",
+    "area": "Sagarpur",
+    "city": "New Delhi",
+    "pin": 110064,
+    "country": "India"
+  },
+  "office": {
+    "street": "B-121 Wood Market",
+    "area": "Kirti Nagar",
+    "city": "New Delhi",
+    "pin": 110064,
+    "country": "India"
+  }
 }

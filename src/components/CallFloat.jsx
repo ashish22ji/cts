@@ -16,15 +16,16 @@ export default function CallFloat() {
         active:scale-95
       "
     >
-        <div className="bg-tertiary w-10 h-10 rounded-full flex items-center justify-center">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        viewBox="0 0 24 24"
-        width="26"
-        height="26"
-        fill="white"
-      >
-        <path d="M22 16.92v3a2 2 0 0 1-2.18 2
+      <div className="bg-tertiary w-10 h-10 rounded-full flex items-center justify-center">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          width="26"
+          height="26"
+          fill="white"
+        >
+          <path
+            d="M22 16.92v3a2 2 0 0 1-2.18 2
         19.86 19.86 0 0 1-8.63-3.07
         19.5 19.5 0 0 1-6-6
         A19.86 19.86 0 0 1 2.08 4.18
@@ -36,8 +37,9 @@ export default function CallFloat() {
         l1.48-1.11
         a2 2 0 0 1 2.11-.45
         c.83.27 1.7.47 2.6.59
-        a2 2 0 0 1 1.72 2.0z"/>
-      </svg>
+        a2 2 0 0 1 1.72 2.0z"
+          />
+        </svg>
       </div>
     </a>
   );

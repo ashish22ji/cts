@@ -1,4 +1,4 @@
- [
+[
   {
     "id": 1,
     "title": "Fast Delivery on home",
@@ -34,12 +34,11 @@
     "icon": "📞",
     "gradient": "from-emerald-500 to-teal-600"
   },
-   {
+  {
     "id": 6,
     "title": "always available 24x7",
     "description": "allways available description",
     "icon": "📞",
-    "gradient": "from-emerald-500 to-teal-600dsafa"}
+    "gradient": "from-emerald-500 to-teal-600dsafa"
+  }
 ]
-
-

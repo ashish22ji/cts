@@ -1,34 +1,32 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import ContactUs from './container/ContactUs';
-import HeroSlider from './container/HeroSlider';
-import Services from './container/Services';
-import Stats from './container/Stats';
-import Fleet from './container/Fleet';
-import About from './container/About';
-import Footer from './container/Footer';
-import FloatingWtsapp from './components/FloatingWtsapp';
-import CallFloat from './components/CallFloat';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import ContactUs from "./container/ContactUs";
+import HeroSlider from "./container/HeroSlider";
+import Services from "./container/Services";
+import Stats from "./container/Stats";
+import Fleet from "./container/Fleet";
+import About from "./container/About";
+import Footer from "./container/Footer";
+import FloatingWtsapp from "./components/FloatingWtsapp";
+import CallFloat from "./components/CallFloat";
 
 function App() {
-
   return (
-        <div className="font-sans bg-bg text-gray-800 min-h-screen">
-      
+    <div className="font-sans bg-bg text-gray-800 min-h-screen">
       {/* NAVBAR */}
-      <Navbar/>
+      <Navbar />
 
       {/* HERO */}
-      <HeroSlider/>
+      <HeroSlider />
 
       {/* About Us */}
-      <About/>
+      <About />
 
       {/* SERVICES */}
       <Services />
 
       {/* Stats */}
-      <Stats/>
+      <Stats />
 
       {/* Contact Us */}
       <ContactUs />
@@ -45,7 +43,7 @@ function App() {
       {/* FOOTER */}
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

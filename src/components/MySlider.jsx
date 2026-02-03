@@ -18,28 +18,23 @@ export default function MySlider({
   showNavigation = true,
   className = "",
 }) {
-
   return (
     <div className={`relative ${className}`}>
       {showNavigation && (
         <>
-          <div
-            className="prev-btn absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-container-even opacity-40 hover:opacity-60 p-2 rounded-full"
-          >
-            <ChevronLeft width={18} height={18} color="#2f507d"/>
+          <div className="prev-btn absolute left-4 top-1/2 -translate-y-1/2 z-20 bg-container-even opacity-40 hover:opacity-60 p-2 rounded-full">
+            <ChevronLeft width={18} height={18} color="#2f507d" />
           </div>
 
-          <div
-            className="next-btn absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-container-even opacity-40 hover:opacity-60 p-2 rounded-full"
-          >
-            <ChevronRight width={18} height={18} color="#2f507d"/>
+          <div className="next-btn absolute right-4 top-1/2 -translate-y-1/2 z-20 bg-container-even opacity-40 hover:opacity-60 p-2 rounded-full">
+            <ChevronRight width={18} height={18} color="#2f507d" />
           </div>
         </>
       )}
 
       <Swiper
         modules={[Navigation, Pagination, Autoplay, A11y]}
-         navigation={
+        navigation={
           showNavigation
             ? {
                 prevEl: ".prev-btn",
@@ -47,7 +42,11 @@ export default function MySlider({
               }
             : false
         }
-        autoplay={autoplay ? { delay: autoplayDelay, disableOnInteraction: false } : false}
+        autoplay={
+          autoplay
+            ? { delay: autoplayDelay, disableOnInteraction: false }
+            : false
+        }
         pagination={pagination ? { clickable: true } : false}
         loop={loop}
         spaceBetween={spaceBetween}
