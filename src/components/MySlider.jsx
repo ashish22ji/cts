@@ -1,6 +1,6 @@
 import { Navigation, Pagination, Autoplay, A11y } from "swiper/modules";
 import { Swiper } from "swiper/react";
-import { ChevronLeft, ChevronRight } from "./icons/Icon";
+import { ChevronLeft, ChevronRight } from "./Icon";
 
 import "swiper/css";
 import "swiper/css/navigation";
