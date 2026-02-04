@@ -25,7 +25,7 @@ export default function ContactUs() {
       }}
     >
       {/* Contact Info */}
-      <div className="flex flex-col md:flex-row justify-center gap-6 text-primary text-base">
+      <div className="flex flex-col md:flex-row justify-center gap-6 text-primary text-base items-center">
         <span>
           ✉{" "}
           <a
